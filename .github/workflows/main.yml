@@ -9,7 +9,7 @@ jobs:
     - name: checkout
       uses: actions/checkout@v4
     - name: ls
-      run: |
+      run: 
         ls
   checkout:
     # lint (check for syntax)
